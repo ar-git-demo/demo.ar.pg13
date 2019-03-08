@@ -37,6 +37,8 @@
         <members>JWTBearerFlow</members>
         <members>LIFXController</members>
         <members>LIFXControllerTest</members>
+        <members>NewAccountCreation</members>
+        <members>NewAccountCreationTest</members>
         <members>PostPriceChangeToSlack</members>
         <members>PostPriceChangeToSlackTest</members>
         <members>PropertyController</members>
@@ -45,6 +47,7 @@
         <members>PushPriceChangeNotification</members>
         <members>PushPriceChangeNotificationTest</members>
         <members>RejectDuplicateFavoriteTest</members>
+        <members>Sample</members>
         <members>SlackOpportunityPublisher</members>
         <members>SlackOpportunityPublisherTest</members>
         <name>ApexClass</name>
@@ -824,6 +827,7 @@
         <members>Case</members>
         <members>CaseContactRole</members>
         <members>ChatterActivity</members>
+        <members>Child__c</members>
         <members>CollaborationGroup</members>
         <members>CollaborationGroupMember</members>
         <members>Contact</members>
@@ -842,6 +846,7 @@
         <members>Favorite__c</members>
         <members>FeedItem</members>
         <members>ForecastingCategoryMapping</members>
+        <members>Grand_Child__c</members>
         <members>Idea</members>
         <members>Image</members>
         <members>Lead</members>
@@ -857,6 +862,7 @@
         <members>Order</members>
         <members>OrderItem</members>
         <members>OrgDeleteRequest</members>
+        <members>Parent__c</members>
         <members>PartnerRole</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
@@ -907,6 +913,7 @@
         <members>Heat_Map_Mock</members>
         <members>House_Explorer</members>
         <members>New_Object__c</members>
+        <members>Parent__c</members>
         <members>Prod_Master_Object__c</members>
         <members>Property_Explorer1</members>
         <members>Property__c</members>
@@ -926,6 +933,7 @@
         <name>DuplicateRule</name>
     </types>
     <types>
+        <members>unfiled$public/BrokerNotifications</members>
         <members>unfiled$public/MarketingProductInquiryResponse</members>
         <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
         <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
@@ -990,6 +998,7 @@
         <members>Case-Case %28Support%29 Layout</members>
         <members>Case-Case Layout</members>
         <members>CaseClose-Close Case Layout</members>
+        <members>Child__c-Child Layout</members>
         <members>CommunityMemberLayout-Community Member Layout</members>
         <members>Contact-Contact %28Marketing%29 Layout</members>
         <members>Contact-Contact %28Sales%29 Layout</members>
@@ -1004,6 +1013,7 @@
         <members>Favorite__c-Favorite Layout</members>
         <members>FeedItem-Feed Item Layout</members>
         <members>Global-Global Layout</members>
+        <members>Grand_Child__c-Grand Child Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
         <members>Lead-Lead %28Sales%29 Layout</members>
@@ -1018,6 +1028,7 @@
         <members>OpportunityLineItem-Opportunity Product Layout</members>
         <members>Order-Order Layout</members>
         <members>OrderItem-Order Product Layout</members>
+        <members>Parent__c-Parent Layout</members>
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Prod_Child_Object__c-Prod Child Object Layout</members>
@@ -1091,6 +1102,7 @@
         <members>Order.AllActivatedOrders</members>
         <members>Order.AllDraftOrders</members>
         <members>Order.AllOrders</members>
+        <members>Parent__c.All</members>
         <members>Prod_Master_Object__c.All</members>
         <members>Product2.AllProducts</members>
         <members>Property__c.All</members>
@@ -1348,5 +1360,13 @@
         <members>Case.UpsellCrosssellOpportunity</members>
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
+    </types>
+    <types>
+        <members>Broker__c.Email_Brokers_on_Inactive_Periods_of_Property</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <types>
+        <members>Broker__c.NotifyBrokerOfInactiveProperty</members>
+        <name>WorkflowRule</name>
     </types>
 </Package>
