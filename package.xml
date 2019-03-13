@@ -885,6 +885,7 @@
         <members>StreamingChannel</members>
         <members>Task</members>
         <members>Test_Dropbox_Object__c</members>
+        <members>Test_Object__c</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
         <members>User</members>
@@ -1045,6 +1046,7 @@
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
         <members>Test_Dropbox_Object__c-Test Dropbox Object Layout</members>
+        <members>Test_Object__c-Test Object Layout</members>
         <members>User-User Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
