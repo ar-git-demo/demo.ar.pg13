@@ -4,5 +4,4 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <tabs>standard-Chatter</tabs>
-    <tabs>Prod_Master_Object__c</tabs>
 </CustomApplication>

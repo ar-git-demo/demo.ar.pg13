@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>43.0</version>
+    <version>45.0</version>
     <types>
         <members>BotController</members>
         <members>BotField</members>
@@ -61,6 +61,7 @@
         <name>ApexTrigger</name>
     </types>
     <types>
+        <members>AppSwitcher</members>
         <members>Salesforce1</members>
         <name>AppMenu</name>
     </types>
@@ -116,10 +117,6 @@
         <name>AutoResponseRules</name>
     </types>
     <types>
-        <members>CPQIntegrationUserCert</members>
-        <name>Certificate</name>
-    </types>
-    <types>
         <members>DataCloudGeoLocation</members>
         <name>CleanDataService</name>
     </types>
@@ -131,10 +128,6 @@
         <members>Broker__c.Broker_Compact</members>
         <members>Property__c.Property_Compact_Layout</members>
         <name>CompactLayout</name>
-    </types>
-    <types>
-        <members>CPQIntegrationUserApp</members>
-        <name>ConnectedApp</name>
     </types>
     <types>
         <members>dreamhouselogosquare</members>
@@ -329,6 +322,24 @@
         <members>Case.SuppliedPhone</members>
         <members>Case.Type</members>
         <members>CaseContactRole.Role</members>
+        <members>ConsumptionRate.ConsumptionScheduleId</members>
+        <members>ConsumptionRate.Description</members>
+        <members>ConsumptionRate.LowerBound</members>
+        <members>ConsumptionRate.Name</members>
+        <members>ConsumptionRate.Price</members>
+        <members>ConsumptionRate.PricingMethod</members>
+        <members>ConsumptionRate.ProcessingOrder</members>
+        <members>ConsumptionRate.UpperBound</members>
+        <members>ConsumptionSchedule.BillingTerm</members>
+        <members>ConsumptionSchedule.BillingTermUnit</members>
+        <members>ConsumptionSchedule.Description</members>
+        <members>ConsumptionSchedule.IsActive</members>
+        <members>ConsumptionSchedule.MatchingAttribute</members>
+        <members>ConsumptionSchedule.Name</members>
+        <members>ConsumptionSchedule.NumberOfRates</members>
+        <members>ConsumptionSchedule.RatingMethod</members>
+        <members>ConsumptionSchedule.Type</members>
+        <members>ConsumptionSchedule.UnitOfMeasure</members>
         <members>Contact.AccountId</members>
         <members>Contact.AssistantName</members>
         <members>Contact.AssistantPhone</members>
@@ -599,7 +610,6 @@
         <members>Macro.Name</members>
         <members>Macro.OwnerId</members>
         <members>Macro.StartingContext</members>
-        <members>New_Object__c.New_Field__c</members>
         <members>Opportunity.AccountId</members>
         <members>Opportunity.Amount</members>
         <members>Opportunity.CampaignId</members>
@@ -662,6 +672,7 @@
         <members>Order.PoNumber</members>
         <members>Order.ShipToContactId</members>
         <members>Order.ShippingAddress</members>
+        <members>Order.Status</members>
         <members>Order.TotalAmount</members>
         <members>Order.Type</members>
         <members>OrderItem.AvailableQuantity</members>
@@ -688,7 +699,6 @@
         <members>PricebookEntry.StandardPrice</members>
         <members>PricebookEntry.UnitPrice</members>
         <members>PricebookEntry.UseStandardPrice</members>
-        <members>Prod_Child_Object__c.Prod_Master_Object__c</members>
         <members>Product2.Description</members>
         <members>Product2.DisplayUrl</members>
         <members>Product2.ExternalDataSourceId</members>
@@ -699,6 +709,8 @@
         <members>Product2.ProductCode</members>
         <members>Product2.QuantityUnitOfMeasure</members>
         <members>Product2.StockKeepingUnit</members>
+        <members>ProductConsumptionSchedule.ConsumptionScheduleId</members>
+        <members>ProductConsumptionSchedule.ProductId</members>
         <members>Property__c.Address__c</members>
         <members>Property__c.Assessed_Value__c</members>
         <members>Property__c.Baths__c</members>
@@ -804,9 +816,6 @@
         <members>UserProvisioningRequest.SalesforceUserId</members>
         <members>UserProvisioningRequest.State</members>
         <members>UserProvisioningRequest.UserProvAccountId</members>
-        <members>eMoney_Obj__c.AutorabitExtId__c</members>
-        <members>eMoney_Test_Cobj__c.AutorabitExtId__c</members>
-        <members>eMoney_Test_Cobj__c.eMoney_Obj__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -826,6 +835,8 @@
         <members>ChatterActivity</members>
         <members>CollaborationGroup</members>
         <members>CollaborationGroupMember</members>
+        <members>ConsumptionRate</members>
+        <members>ConsumptionSchedule</members>
         <members>Contact</members>
         <members>ContactCleanInfo</members>
         <members>ContactRequest</members>
@@ -849,7 +860,6 @@
         <members>Macro</members>
         <members>MacroAction</members>
         <members>MacroInstruction</members>
-        <members>New_Object__c</members>
         <members>Opportunity</members>
         <members>OpportunityCompetitor</members>
         <members>OpportunityContactRole</members>
@@ -860,9 +870,8 @@
         <members>PartnerRole</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
-        <members>Prod_Child_Object__c</members>
-        <members>Prod_Master_Object__c</members>
         <members>Product2</members>
+        <members>ProductConsumptionSchedule</members>
         <members>Property__c</members>
         <members>QuickText</members>
         <members>Recommendation</members>
@@ -881,8 +890,6 @@
         <members>TopicAssignment</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
-        <members>eMoney_Obj__c</members>
-        <members>eMoney_Test_Cobj__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -890,12 +897,7 @@
         <members>Broker__c-en_US</members>
         <members>Dreamhouse_Settings__c-en_US</members>
         <members>Favorite__c-en_US</members>
-        <members>New_Object__c-en_US</members>
-        <members>Prod_Child_Object__c-en_US</members>
-        <members>Prod_Master_Object__c-en_US</members>
         <members>Property__c-en_US</members>
-        <members>eMoney_Obj__c-en_US</members>
-        <members>eMoney_Test_Cobj__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
@@ -906,12 +908,9 @@
         <members>Heat_Map</members>
         <members>Heat_Map_Mock</members>
         <members>House_Explorer</members>
-        <members>New_Object__c</members>
-        <members>Prod_Master_Object__c</members>
         <members>Property_Explorer1</members>
         <members>Property__c</members>
         <members>Sample_Data_Import</members>
-        <members>eMoney_Obj__c</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -957,10 +956,10 @@
         <name>FlexiPage</name>
     </types>
     <types>
-        <members>Advertise_New_Property-2</members>
-        <members>Opportunity_Status_Change-1</members>
-        <members>Post_Price_Changes_to_Slack-1</members>
-        <members>Price_Change_Push_Notification-1</members>
+        <members>Advertise_New_Property</members>
+        <members>Opportunity_Status_Change</members>
+        <members>Post_Price_Changes_to_Slack</members>
+        <members>Price_Change_Push_Notification</members>
         <name>Flow</name>
     </types>
     <types>
@@ -991,6 +990,8 @@
         <members>Case-Case Layout</members>
         <members>CaseClose-Close Case Layout</members>
         <members>CommunityMemberLayout-Community Member Layout</members>
+        <members>ConsumptionRate-Consumption Rate Layout</members>
+        <members>ConsumptionSchedule-Consumption Schedule Layout</members>
         <members>Contact-Contact %28Marketing%29 Layout</members>
         <members>Contact-Contact %28Sales%29 Layout</members>
         <members>Contact-Contact %28Support%29 Layout</members>
@@ -1002,7 +1003,6 @@
         <members>EmailMessage-Email Message Layout</members>
         <members>Event-Event Layout</members>
         <members>Favorite__c-Favorite Layout</members>
-        <members>FeedItem-Feed Item Layout</members>
         <members>Global-Global Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
@@ -1010,7 +1010,6 @@
         <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
         <members>Macro-Macro Layout</members>
-        <members>New_Object__c-New Object Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
         <members>Opportunity-Opportunity %28Support%29 Layout</members>
@@ -1020,9 +1019,8 @@
         <members>OrderItem-Order Product Layout</members>
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
-        <members>Prod_Child_Object__c-Prod Child Object Layout</members>
-        <members>Prod_Master_Object__c-Prod Master Object Layout</members>
         <members>Product2-Product Layout</members>
+        <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
         <members>Property__c-Property Layout</members>
         <members>QuickText-Quick Text Layout</members>
         <members>Scorecard-Scorecard Layout</members>
@@ -1034,8 +1032,6 @@
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
-        <members>eMoney_Obj__c-eMoney Obj Layout</members>
-        <members>eMoney_Test_Cobj__c-eMoney Test Cobj Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -1058,6 +1054,8 @@
         <members>Case.MyCases</members>
         <members>Case.MyOpenCases</members>
         <members>CollaborationGroup.All_ChatterGroups</members>
+        <members>ConsumptionSchedule.All_ConsumptionSchedules</members>
+        <members>ConsumptionSchedule.My_ConsumptionSchedules</members>
         <members>Contact.AllContacts</members>
         <members>Contact.BirthdaysThisMonth</members>
         <members>Contact.MyContacts</members>
@@ -1078,7 +1076,6 @@
         <members>Lead.TodaysLeads</members>
         <members>Lead.ViewCustom1</members>
         <members>Lead.ViewCustom2</members>
-        <members>New_Object__c.All</members>
         <members>Opportunity.AllOpportunities</members>
         <members>Opportunity.ClosingNextMonth</members>
         <members>Opportunity.ClosingThisMonth</members>
@@ -1091,9 +1088,9 @@
         <members>Order.AllActivatedOrders</members>
         <members>Order.AllDraftOrders</members>
         <members>Order.AllOrders</members>
-        <members>Prod_Master_Object__c.All</members>
         <members>Product2.AllProducts</members>
         <members>Property__c.All</members>
+        <members>Recommendation.All_Recommendations</members>
         <members>Scorecard.AllScorecards</members>
         <members>Scorecard.MyScorecards</members>
         <members>SocialPersona.AllSocialPersonas</members>
@@ -1102,7 +1099,6 @@
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
-        <members>eMoney_Obj__c.All</members>
         <name>ListView</name>
     </types>
     <types>
@@ -1110,7 +1106,6 @@
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
         <members>Authenticated Website</members>
-        <members>CPQ Integration User</members>
         <members>Chatter External User</members>
         <members>Chatter Free User</members>
         <members>Chatter Moderator User</members>
@@ -1226,11 +1221,13 @@
         <members>FileUploadAndDownloadSecurity</members>
         <members>Forecasting</members>
         <members>Ideas</members>
+        <members>IoT</members>
         <members>Knowledge</members>
         <members>LiveAgent</members>
         <members>Macro</members>
         <members>Mobile</members>
         <members>Name</members>
+        <members>OmniChannel</members>
         <members>Opportunity</members>
         <members>Order</members>
         <members>OrgPreference</members>
@@ -1254,13 +1251,10 @@
         <members>FlowInterview</members>
         <members>Lead</members>
         <members>ListEmail</members>
-        <members>New_Object__c</members>
         <members>Opportunity</members>
         <members>Order</members>
-        <members>Prod_Master_Object__c</members>
         <members>Property__c</members>
         <members>User</members>
-        <members>eMoney_Obj__c</members>
         <name>SharingRules</name>
     </types>
     <types>
@@ -1330,16 +1324,11 @@
         <members>Event</members>
         <members>Favorite__c</members>
         <members>Lead</members>
-        <members>New_Object__c</members>
         <members>Opportunity</members>
         <members>Order</members>
-        <members>Prod_Child_Object__c</members>
-        <members>Prod_Master_Object__c</members>
         <members>Property__c</members>
         <members>Solution</members>
         <members>Task</members>
-        <members>eMoney_Obj__c</members>
-        <members>eMoney_Test_Cobj__c</members>
         <name>TopicsForObjects</name>
     </types>
     <types>

@@ -116,7 +116,7 @@
     </dashboardGridLayout>
     <dashboardType>SpecifiedUser</dashboardType>
     <isGridLayout>true</isGridLayout>
-    <runningUser>ar-sf-pg15-prodorg2@autorabit.com</runningUser>
+    <runningUser>prod.pg13@autorabit.com</runningUser>
     <textColor>#000000</textColor>
     <title>My Dashboard</title>
     <titleColor>#000000</titleColor>
