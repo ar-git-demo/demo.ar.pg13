@@ -27,7 +27,6 @@
     <tabs>Sample_Data_Import</tabs>
     <tabs>Bot_Command__c</tabs>
     <tabs>standard-File</tabs>
-    <tabs>Prod_Master_Object__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>dreamhouseApplicationUtilityBar</utilityBar>
 </CustomApplication>

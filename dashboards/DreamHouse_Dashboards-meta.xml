@@ -2,7 +2,7 @@
 <DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
     <folderShares>
         <accessLevel>Manage</accessLevel>
-        <sharedTo>ar-sf-pg15-prodorg2@autorabit.com</sharedTo>
+        <sharedTo>intpg13@autorabit.com</sharedTo>
         <sharedToType>User</sharedToType>
     </folderShares>
     <name>DreamHouse Dashboards</name>
