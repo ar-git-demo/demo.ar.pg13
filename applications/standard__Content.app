@@ -8,5 +8,5 @@
     <tabs>standard-Workspace</tabs>
     <tabs>standard-ContentSearch</tabs>
     <tabs>standard-ContentSubscriptions</tabs>
-    <tabs>Prod_Master_Object__c</tabs>
+    <tabs>Deployment_History__c</tabs>
 </CustomApplication>

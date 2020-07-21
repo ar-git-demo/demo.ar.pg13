@@ -1,5 +1,5 @@
 public with sharing class BotController {
-//Demonstration - Mar 8
+    //dummy Line test123 Apr-23-2020 updated for demo this is test comment 
     class HandlerMapping {
         
         public String handlerClassName;
@@ -11,7 +11,7 @@ public with sharing class BotController {
         }
 
     }
-
+// Commented for demo - Apr-23-2020 updated for demo this is test comment 
     static List<HandlerMapping> handlerMappings;
     
     static {
@@ -23,7 +23,7 @@ public with sharing class BotController {
         }
         handlerMappings = mappings;
     }
-    //Another Change
+    
     @AuraEnabled
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
         

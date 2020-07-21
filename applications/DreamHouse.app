@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Home_Page_Default</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
     <brand>
         <headerColor>#84BF41</headerColor>
         <logo>dreamhouselogosquare</logo>
@@ -27,7 +35,7 @@
     <tabs>Sample_Data_Import</tabs>
     <tabs>Bot_Command__c</tabs>
     <tabs>standard-File</tabs>
-    <tabs>Prod_Master_Object__c</tabs>
+    <tabs>Deployment_History__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>dreamhouseApplicationUtilityBar</utilityBar>
 </CustomApplication>

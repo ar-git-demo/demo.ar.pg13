@@ -179,10 +179,10 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>Prod_Master_Object__c</tabs>
+    <tabs>Deployment_History__c</tabs>
     <workspaceConfig>
         <mappings>
-            <tab>Prod_Master_Object__c</tab>
+            <tab>Deployment_History__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>

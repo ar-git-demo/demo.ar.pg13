@@ -8,5 +8,28 @@
         <plural>true</plural>
         <value>Bot Commands</value>
     </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apex Class --></label>
+        <name>Apex_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invocation Pattern --></label>
+        <name>Pattern__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sample Utterance --></label>
+        <name>Sample_Utterance__c</name>
+    </fields>
+    <layouts>
+        <layout>Bot Action Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -9,5 +9,5 @@
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
-    <tabs>Prod_Master_Object__c</tabs>
+    <tabs>Deployment_History__c</tabs>
 </CustomApplication>

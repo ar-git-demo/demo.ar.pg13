@@ -11,5 +11,5 @@
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>Prod_Master_Object__c</tabs>
+    <tabs>Deployment_History__c</tabs>
 </CustomApplication>
