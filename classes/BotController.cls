@@ -11,6 +11,7 @@ public with sharing class BotController {
         }
 
     }
+// Commented for demo - July 2020 updated for demo this is test comment 
 // Commented for demo
     static List<HandlerMapping> handlerMappings;
     
