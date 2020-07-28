@@ -54,7 +54,6 @@
         <members>PushPriceChangeNotification</members>
         <members>PushPriceChangeNotificationTest</members>
         <members>RejectDuplicateFavoriteTest</members>
-        <members>Sample</members>
         <members>SlackOpportunityPublisher</members>
         <members>SlackOpportunityPublisherTest</members>
         <members>Testing</members>
@@ -1192,6 +1191,7 @@
         <members>AssetRelationship-Asset Relationship Layout</members>
         <members>Bot_Command__c-Bot Action Layout</members>
         <members>Broker__c-Broker Layout</members>
+        <members>BuyerAccount-Buyer Account Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>Case-Case %28Marketing%29 Layout</members>
