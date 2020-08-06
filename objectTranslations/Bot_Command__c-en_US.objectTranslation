@@ -9,25 +9,25 @@
         <value>Bot Commands</value>
     </caseValues>
     <fields>
-        <label><!-- Active --></label>
+        <label></label>
         <name>Active__c</name>
     </fields>
     <fields>
-        <label><!-- Apex Class --></label>
+        <label></label>
         <name>Apex_Class__c</name>
     </fields>
     <fields>
-        <label><!-- Invocation Pattern --></label>
+        <label></label>
         <name>Pattern__c</name>
     </fields>
     <fields>
-        <label><!-- Sample Utterance --></label>
+        <label></label>
         <name>Sample_Utterance__c</name>
     </fields>
     <layouts>
         <layout>Bot Action Layout</layout>
         <sections>
-            <label><!-- Custom Links --></label>
+            <label></label>
             <section>Custom Links</section>
         </sections>
     </layouts>
